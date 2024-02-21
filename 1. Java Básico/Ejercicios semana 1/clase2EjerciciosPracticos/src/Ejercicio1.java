@@ -14,5 +14,6 @@ public class Ejercicio1 {
             System.out.println("Lo sentimos, pero no tienes la mayoria de edad permitida");
         }
 
+        scanner.close();
     }
 }
