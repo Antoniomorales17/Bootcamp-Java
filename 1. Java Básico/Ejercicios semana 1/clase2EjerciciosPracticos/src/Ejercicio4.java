@@ -7,15 +7,15 @@ public class Ejercicio4 {
         int[][] asientos = new int[5][5];
 
         //Iniciamos los asientos vacios
-        for (int i=0; i< asientos.length; i++) {
-            for (int j=0; j< asientos.length; j++) {
+        for (int i = 0; i < asientos.length; i++) {
+            for (int j = 0; j < asientos.length; j++) {
                 asientos[i][j] = 0;
             }
         }
 
         boolean finalizado = false;
 
-        while(!finalizado){
+        while (!finalizado) {
             mostrarMapa(asientos);
 
             // Pedir al usuario la fila y el número de asiento
