@@ -1,5 +1,7 @@
 # Bootcamp de Java 🚀🚀🚀
 
+![java] (https://i.imgur.com/CJQNL7B.png)
+
 ¡Bienvenido al repositorio del Bootcamp de Java! Aquí se subiran los repositorios de clase y los ejercicios diarios.
 Dividiremos la estructura en estas carpetas principales:
 
