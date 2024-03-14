@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class PosicionInvalidaException {
+public class PosicionInvalidaException extends Exception {
+    public PosicionInvalidaException(String message) {
+        super(message);
+    }
 }

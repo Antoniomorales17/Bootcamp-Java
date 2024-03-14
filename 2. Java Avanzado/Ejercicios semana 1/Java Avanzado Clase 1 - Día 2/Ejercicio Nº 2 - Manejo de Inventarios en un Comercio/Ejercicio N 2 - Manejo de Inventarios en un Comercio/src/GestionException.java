@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class GestionException {
+public class GestionException extends Exception {
+    public GestionException(String message) {
+        super(message);
+    }
 }

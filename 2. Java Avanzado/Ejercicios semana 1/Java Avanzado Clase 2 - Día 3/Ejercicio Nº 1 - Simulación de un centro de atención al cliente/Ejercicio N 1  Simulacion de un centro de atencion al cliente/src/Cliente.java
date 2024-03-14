@@ -1,7 +1,7 @@
-public class Agente {
+public class Cliente {
     private String nombre;
 
-    public Agente(String nombre) {
+    public Cliente(String nombre) {
         this.nombre = nombre;
     }
 
