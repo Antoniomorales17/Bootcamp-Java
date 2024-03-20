@@ -17,15 +17,15 @@ public class VotacionesSv extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        // Verificar si se solicitó mostrar los resultados
+
         String action = request.getParameter("action");
         if ("mostrarResultados".equals(action)) {
-            // Obtener resultados y enviarlos a la página JSP
+
             Map<String, Integer> resultados = controladora.obtenerResultados();
             request.setAttribute("resultados", resultados);
             request.getRequestDispatcher("resultados.jsp").forward(request, response);
         } else {
-            // Si no se solicitó mostrar resultados, redirigir a la página de inicio
+
             response.sendRedirect("index.jsp");
         }
     }
@@ -33,11 +33,10 @@ public class VotacionesSv extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        // Obtener el voto seleccionado y guardarlo
+
         String opcionVoto = request.getParameter("voto");
         controladora.guardarVoto(opcionVoto);
 
-        // Redirigir de nuevo a la página de votación
         response.sendRedirect("index.jsp");
     }
 
