@@ -39,3 +39,15 @@ Aquí nos enfocamos en las buenas prácticas de programación y desarrollo de so
 - Manejo de dependencias y construcción de proyectos con Maven o Gradle
 - Control de versiones y colaboración con Git y GitHub
 
+## Spring Boot 🪐
+
+En este módulo exploraremos el framework Spring Boot, una herramienta poderosa para el desarrollo de aplicaciones web en Java:
+
+- Introducción a Spring Boot y principios de desarrollo de aplicaciones web
+- Configuración automática y convenciones sobre configuración
+- Creación de controladores RESTful con Spring MVC
+- Inyección de dependencias y gestión de componentes con Spring
+- Persistencia de datos utilizando Spring Data JPA
+- Pruebas y manipulación con Postman
+- Documentación de API con Swagger
+- Despliegue de aplicaciones con Spring Boot
