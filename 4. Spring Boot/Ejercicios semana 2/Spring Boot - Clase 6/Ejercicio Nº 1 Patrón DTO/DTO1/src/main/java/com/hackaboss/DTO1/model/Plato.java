@@ -12,8 +12,8 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Plato {
-    private Integer codigo_plato;
+    private long codigoPlato;
     private String nombre;
-    private Double precio;
-    private List<Ingrediente> lista_ingredientes;
+    private double precio;
+    private List<Ingrediente> listaIngredientes;
 }
